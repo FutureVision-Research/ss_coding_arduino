@@ -38,11 +38,12 @@ void loop() {
   digitalWrite(LED3, LOW);
   //Blink LED 4 five times for one second each time
   int counter = 0;
-  while counter < 5 {
+  while (counter < 5) {
     digitalWrite(LED4, HIGH);
     delay(1000);
     digitalWrite(LED4, LOW);
-    counter ++
+    delay(1000);
+    counter++;
   }
     //Power off LED2 which was left on, as requested in the challenge description
   digitalWrite(LED2, LOW);
