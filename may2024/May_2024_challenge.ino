@@ -10,10 +10,10 @@
   Written by Brian Cox May 2024
 */
 
-const int LED1 = 3;
-const int LED2 = 4;
-const int LED3 = 5;
-const int LED4 = 6;
+const int LED1 = 3; //Red LED
+const int LED2 = 4; //Green LED
+const int LED3 = 5; //Red LED
+const int LED4 = 6; //Green LED
 
 void setup() {
   pinMode(LED1, OUTPUT);
